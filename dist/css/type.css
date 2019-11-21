@@ -1,0 +1,25 @@
+:root {
+  --base-size: 18px;
+  --type-scale: 1.2;
+  --h4: calc(var(--base-size) * var(--type-scale));
+  --h3: calc(var(--h4) * var(--type-scale));
+  --h2: calc(var(--h3) * var(--type-scale));
+  --h1: calc(var(--h2) * var(--type-scale));
+  --small-text: calc(var(--base-size) / var(--type-scale));
+}
+
+h1 {
+  font-size: var(--h1);
+}
+
+h2 {
+  font-size: var(--h2);
+}
+
+.small-text {
+  font-size: var(--small-text);
+}
+
+p {
+  font-size: var(--base-size);
+}

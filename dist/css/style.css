@@ -1,0 +1,32 @@
+/* Mobile First */
+:root {
+  /* Primary Colors */
+  --clr-primary: hsl(180, 66%, 49%);
+  --clr-primary-dark: hsl(257, 27%, 26%);
+  /* Secondary Colors */
+  --clr-secondary: hsl(0, 87%, 67%);
+  /* Neutral Colors */
+  --clr-neutral-gray: hsl(0, 0%, 75%);
+  --clr-neutral-violet: hsl(257, 7%, 63%);
+  --clr-neutral-dark-blue: hsl(255, 11%, 22%);
+  --clr-neutral-dark-violet: hsl(260, 8%, 14%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--clr-neutral-gray);
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+img {
+  max-width: 100%;
+}
