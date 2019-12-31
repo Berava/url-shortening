@@ -56,12 +56,26 @@
   justify-self: center;
 }
 
+/* Response section */
+.response-field {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.5rem;
+}
+
+.response {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3rem auto 3rem 3rem;
+}
+
 /* Advanced Statistics section */
 .urlbox .url-form {
+  align-items: start;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1.33rem;
-  align-items: start;
 }
 
 .circle-icon {
@@ -124,10 +138,10 @@
     justify-content: center;
   }
   .hero {
+    align-items: center;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0;
     grid-template-rows: 1fr;
-    align-items: center;
     justify-items: flex-start;
     /* align-content: stretch; */
   }
@@ -143,6 +157,14 @@
     justify-self: flex-start;
     padding: 1rem 2rem;
   }
+
+  .response {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 2fr auto auto;
+    grid-template-rows: 1fr;
+  }
+
   .statistics-cards {
     display: grid;
     grid-gap: 2rem;
