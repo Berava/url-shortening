@@ -116,7 +116,7 @@
 }
 
 /* Media Queries */
-@media only screen and (min-width: 414px) {
+@media only screen and (min-width: 415px) {
   .hero {
     grid-template-rows: repeat(2, auto);
   }
