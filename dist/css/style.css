@@ -177,15 +177,15 @@ h4 {
 }
 
 /* Main */
-.main .container {
+/* .main .container {
   overflow: hidden;
-}
+} */
 
 /* Hero Section */
 .hero {
-  padding: 5em 0;
   text-align: center;
-  min-height: 80vh;
+  margin-bottom: 10rem;
+  /* min-height: 100%; */
 }
 
 .hero > div:last-child {
@@ -207,7 +207,7 @@ h4 {
 .statistics {
   background: #f0f1f5;
   margin-top: 4rem;
-  min-height: 80vh;
+  /* min-height: 80vh; */
   padding-bottom: 5rem;
   text-align: center;
 }
@@ -278,9 +278,10 @@ h4 {
 
 /* Response section */
 .response-field {
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
   overflow: hidden;
   text-align: left;
+  margin-bottom: 3rem;
 }
 
 .response {
@@ -350,18 +351,20 @@ h4 {
 }
 
 .boost .container {
-  min-height: 40vh;
+  /* min-height: 40vh; */
   overflow: initial;
 }
 
 .boost h3 {
   color: white;
   margin-bottom: 1rem;
+  margin-top: 5rem;
 }
 
 .boost a {
   font-weight: 700;
   padding: 1rem 2rem;
+  margin-bottom: 5rem;
 }
 
 /* Footer Section */
@@ -488,8 +491,8 @@ h4 {
 /* media Queries */
 @media only screen and (min-width: 415px) {
   .hero > div:last-child {
-    position: static;
-    width: 100%;
+    position: relative;
+    /* width: 100%; */
   }
 }
 
@@ -507,6 +510,7 @@ h4 {
 
   .hero {
     padding: 6rem 0;
+    margin-bottom: 1rem;
     text-align: left;
   }
 
@@ -555,10 +559,10 @@ h4 {
     background-position: top right;
     /* background-repeat: repeat-y; */
   }
-
+  /* 
   .boost .container {
     min-height: 25vh;
-  }
+  } */
 
   .footer-section {
     text-align: left;
